@@ -1,0 +1,63 @@
+body {
+  background-color: #FFC0CB;
+  background-image:url('https://img1.picmix.com/output/stamp/normal/4/8/4/7/1777484_8803b.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+
+
+
+* {
+  font-family: 'Silkscreen';
+  text-align: center
+}
+
+.jsdisabled {
+  color: red;
+  font-size: 24px;
+}
+
+.divStart {
+  position: relative; 
+  text-align: center;
+}
+
+.divDone {
+  position: relative; 
+  text-align: center;
+}
+
+.divFinal {
+  position: relative; 
+  text-align: center;
+}
+
+.divBackground {
+  position: fixed;
+  top: 0px; 
+  left: 0px;
+}
+
+
+
+
+.button {
+  border: 2px solid white;
+  color: white;
+  background-color: #FFC0CB;
+  border-radius: 8px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 10px 50px;
+  cursor: pointer;
+  width: 140px;
+  height: 60px;
+}
+

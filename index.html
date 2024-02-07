@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"> </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Valentinesday </title>
+
+</head>
+
+<body onload="loadPage()" style="position: relative;">
+  <noscript>
+    <div class="jsdisabled">
+      <p>JavaScript is required for this website. Please enable it in your Browser Settings!</p>
+    </div>
+  </noscript>
+
+  <div class="divBackground">
+
+  </div>
+
+  <div id="divStart" class="divStart">
+
+    <img src="teddy.png" style="width:30%;height:30%">
+    <h1 style="font-size:45px; color:white"> Will you be my valentine? </h1>
+
+    <button type="button" class="button buttonYes" id="yesId" onclick="yesClick()">
+      <span>Yes</span>
+    </button>
+    <button type="button" class="button buttonNo" id="noId" onclick="noClick()">
+      No
+    </button>
+
+  </div>
+
+
+
+
+
+
+  <div id="divDone" class="divDone" style="display: none">
+
+    <img src="flowers.png" onclick="imgClick()">
+    <h1 style="font-size:50px; color:white">YAAAAY!!!</h1>
+    <h2 style="font-size:30px; color:white">These are for you! <3 </h2>
+
+  </div>
+
+
+
+  <div id="divFinal" class="divFinal" style="display: none">
+
+    <h1 style="font-size:50px; color:white">I Love you! <3 </h1>
+        <img src="letter.png" style="width:30%;height:30%">
+        <h2 style="font-size:50px; color:white">I'm so glad to have you in my life! <3 </h2>
+            <h2 style="font-size:80px; color:white">N + L</h2>
+
+  </div>
+
+</body>
+
+</html>
